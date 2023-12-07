@@ -54,7 +54,7 @@ struct AddView: View {
     
     func textIsAppropriate() -> Bool {
         if textFieldText.count < 3 {
-            alertTitle = "Der Eintrag muss mindestens 3 Buchstaben lang sein"
+            alertTitle = "Bitte mindestens 3 Buchstaben eingeben"
             showAlert.toggle()
             return false
         }
