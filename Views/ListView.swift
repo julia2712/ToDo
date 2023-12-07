@@ -32,7 +32,7 @@ struct ListView: View {
             }
         }
         .listStyle(PlainListStyle())
-        .navigationTitle("ToDo Liste 📝")
+        .navigationTitle("ToDo Liste")
         .navigationBarItems(
             leading: EditButton(),
             trailing:
